@@ -5,7 +5,7 @@ This is the part of my rule - CodeDaily (code atleast one hour).
 I ll be doing all the topics below progamms and pushing them . Find them above.
 
 Lets start with a Quote to keep you going,
-> Eveyrone in this country should learn to program a computer, because it teaches you how to think - Steve Jobs
+> Everyone in this country should learn to program a computer, because it teaches you how to think - Steve Jobs
 
 ## Basics of C Programming :-
 - Inroduction
