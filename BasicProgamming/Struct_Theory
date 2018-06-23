@@ -1,0 +1,34 @@
+C structures are special, large variables which contain several named variables inside. Structures are the basic foundation for objects and classes in C. Structures are used for:
+
+Serialization of data
+Passing multiple arguments in and out of functions through a single argument
+Data structures such as linked lists, binary trees, and more
+
+Syntax :-
+-------
+There are basically two syntax for defining a structure in c.
+
+1) struct <structure name> {
+    // list of variables.
+}
+
+Example :- 
+-------
+
+struct point {
+    int x;
+    int y;
+}
+
+2) using typedef keyword.Typedefs allow us to define types with a different name - which can come in handy when dealing with structs and pointers.
+
+typedef struct {
+    // list of variables.
+} <structure name>;
+
+Example :- 
+
+typedef struct {
+    int x;
+    char *y // yes struct can have pointers
+} pointer;
