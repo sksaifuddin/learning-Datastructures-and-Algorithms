@@ -32,3 +32,16 @@ typedef struct {
     int x;
     char *y // yes struct can have pointers
 } pointer;
+
+Pointer To a structure is c :-
+---------------------------
+
+We have already learned that a pointer is a variable which points to the address of another variable of any data type like int, char, float etc.
+Similarly, we can have a pointer to structures, where a pointer variable can point to the address of a structure variable.
+
+There are two ways of accessing members of structure using pointer:
+
+1)Using indirection (*) operator and dot(.) operator.
+ example :-  (*ptr_dog).name - refers to the name of dog
+2)Using arrow (->) operator or membership operator.
+example :- ptr_dog->name - refers to the name of dog
