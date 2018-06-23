@@ -1,0 +1,9 @@
+Dynamic allocation of memory is a very important subject in C. It allows building complex data structures such as linked lists. Allocating memory dynamically helps us to store data without initially knowing the size of the data in the time we wrote the program.
+
+To allocate a chunk of memory dynamically, we have to have a pointer ready to store the location of the newly allocated memory. We can access memory that was allocated to us using that same pointer, and we can use that pointer to free the memory again, once we have finished using it.
+
+After we are done using the dynamically allocated struct, we can release it using free
+
+Note that the free does not delete the variable itself, it simply releases the data that it points to. 
+The myperson variable will still point to somewhere in the memory - but after calling myperson we are not allowed to access that area anymore. 
+We must not use that pointer again until we allocate new data using it.
