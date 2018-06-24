@@ -8,12 +8,20 @@ Lets start with a Quote to keep you going,
 > Everyone in this country should learn to program a computer, because it teaches you how to think - Steve Jobs
 
 ## Basics of C Programming :-
+
 - Inroduction
 - Flow Control
 - Functions
 - Arrays
 - Pointers
 - Structures and Unions
+
+## Things to learn about every data structure / algorithm :-
+
+- Time complexity (Worse case , Average case and best case)
+- space complexity
+- Implementation
+- Where it is used
 
 ## Data Structures :-
 - Stacks
