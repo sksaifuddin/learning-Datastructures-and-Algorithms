@@ -1,3 +1,5 @@
+// Q .2) Write code to reverse the string
+
 #include<iostream>
 using namespace std;
 
