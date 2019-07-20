@@ -1,5 +1,5 @@
 # learning-Datastructures-and-Algorithms
-**Learn everything from basics of c programming to Algorithms and excel your software engineering skills**
+**Learn everything from basics of programming to Algorithms and excel your software engineering skills**
 
 This is the part of my rule - CodeDaily (code atleast one hour). 
 I ll be doing all the topics below progamms and pushing them . Find them above.
@@ -7,7 +7,7 @@ I ll be doing all the topics below progamms and pushing them . Find them above.
 Lets start with a Quote to keep you going,
 > Everyone in this country should learn to program a computer, because it teaches you how to think - Steve Jobs
 
-## Basics of C Programming :-
+## Basics of Programming :-
 
 - Inroduction
 - Flow Control
