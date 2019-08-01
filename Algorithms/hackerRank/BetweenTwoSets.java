@@ -63,3 +63,8 @@ class BetweenTwoSets {
         System.out.println(finalCount);
   }
 }
+
+// Alternate solution from discussion:- O(n log(n)) solution.
+// 1. find the LCM of all the integers of array A.
+// 2. find the GCD of all the integers of array B.
+// 3. Count the number of multiples of LCM that evenly divides the GCD.
