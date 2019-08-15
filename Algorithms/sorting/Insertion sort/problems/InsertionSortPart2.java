@@ -1,5 +1,3 @@
-// https://www.hackerrank.com/challenges/insertionsort2/problem
-
 import java.util.*;
 
 public class InsertionSortPart2 {
@@ -9,12 +7,12 @@ public class InsertionSortPart2 {
       for (int i = 1; i < n; i++) {
           int key = arr[i];
           int j = i-1;
-          while(j>=0 && arr[j] > key) {
+          while(j>=0 && arr[j] < key) {
               arr[j+1] = arr[j];
               j = j-1;
           }
           arr[j+1] = key;
-          for (int k = 0; k < arr.length;k++) {
+          for (int k = 0; k < max; k++) {
               System.out.print(arr[k]+" ");
           }
           System.out.println();
