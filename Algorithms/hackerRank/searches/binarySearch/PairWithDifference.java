@@ -1,3 +1,6 @@
+
+// https://www.hackerrank.com/contests/smart-interviews/challenges/si-pair-with-difference-k
+
 import java.util.*;
 import java.io.*;
 
