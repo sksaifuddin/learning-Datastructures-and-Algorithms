@@ -65,17 +65,17 @@ public class PairWithDifference {
           // start test case from here
             int n = sc.nextInt();
             int k = sc.nextInt();
-            int arr[] = new int[n];
+            long arr[] = new long[n];
             for (int i = 0; i < n; i++) {
-                arr[i] = sc.nextInt();
+                arr[i] = sc.nextLong();
             }
-
+            Arrays.sort(arr);
             // logic starts from here
             boolean flag = false;
             for (int i = 0; i < n; i++) {
-             int b = k - arr[i];
+             long b =  arr[i] - k;
              // search for b(key) in the list using binary search;
-             if(binarySearch(arr, b, i+1, arr.length-1) == true) {
+             if(binarySearch(arr, b) == true) {
                 flag = true;
                 break;
              }
@@ -88,7 +88,8 @@ public class PairWithDifference {
         }
     }
 
-    static boolean binarySearch(int arr[], int k, int low, int high) {
+    static boolean binarySearch(long arr[], long k) {
+        int low = 0; int high = arr.length-1;
         while(low <= high) {
             int mid = (low + high) / 2;
             if(arr[mid] == k) {
